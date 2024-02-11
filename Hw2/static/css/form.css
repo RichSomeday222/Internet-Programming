@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(17, 57, 58);
+}
+
+.nav {
+    background: linear-gradient(to right, blue, black);
+    width: 95%;
+    border: 0.5px solid white;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border: 2px solid   rgb(167, 166, 166);
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: white;
+
+
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+#event,#Stime,#Etime,#phone,#location,#exin,#url,#week{
+    width: 85%;
+    height: 100%;
+}
+
+td,
+th {
+    border: 1px solid rgb(167, 166, 166);;
+    padding: 15px;
+    text-align: left;
+
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width:40%;
+}
+.container {
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    
+}

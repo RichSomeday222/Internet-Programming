@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td,
+th {
+    border: 1px solid black;
+}
+
+nav>table {
+    width: 10%;
+}
+.nav {
+    background: linear-gradient(to right, blue, black);
+    width: 95%;
+    border: 0.5px solid white;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
